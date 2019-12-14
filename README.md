@@ -34,6 +34,8 @@ $ python 2.Plotpdos.py
 ...
 > plotingDOS10
 > Well done!
+```
 - Finally step:
 you can get "fDOS1.png,fDOS2.png,...fDOS10.png"
-`eog fDOS10.png`
+`$ eog fDOS10.png`
+![PDOS image](https://github.com/mnTusi/VASP_scripts/blob/master/image.png)
