@@ -13,3 +13,27 @@ $ python fixing.py
 > Well done			# output 'POSCAR' file
 ```
 
+# 2. Plotpdos2.0.py 
+- Batch plot PDOS of each atom.
+- First step:
+Calculated PDOS by VASP to get 'DOSCAR'
+- Second step:
+`$ split_dos`
+you can get 'DOS0,DOS1,DOS2...'
+- Third step:
+```
+$ python 2.Plotpdos.py
+> #---------------------------------------------------------
+> begin from which atom:                # eg:1
+> how many atom do you want to plot:    # eg:10
+> plot which orbit(s,sp or spd):        # eg:sp
+> plotingDOS1
+> Well done!
+> plotingDOS2
+> Well done!
+...
+> plotingDOS10
+> Well done!
+- Finally step:
+you can get "fDOS1.png,fDOS2.png,...fDOS10.png"
+`eog fDOS10.png`
