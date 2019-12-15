@@ -13,7 +13,7 @@ $ python fixing.py
 > Well done			# output 'POSCAR' file
 ```
 
-# 2. Plotpdos2.0.py 
+## 2. Plotpdos2.0.py 
 - Batch plot PDOS of each atom.
 - First step:  
 Calculated PDOS by VASP to get 'DOSCAR'
@@ -39,3 +39,5 @@ $ python 2.Plotpdos.py
 you can get "fDOS1.png,fDOS2.png,...fDOS10.png"  
 `$ eog fDOS10.png`  
 ![PDOS image](https://github.com/mnTusi/VASP_scripts/blob/master/image.png)
+## 3. Generate slab structure and high-throughput calculations
+1. 
