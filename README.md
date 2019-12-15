@@ -69,7 +69,7 @@ After finished all calculation, you can run this scripts for generating file, wh
 The meaning of this work is trying to recur results show in this paper
 >Chandrasekaran A, Kamal D, Batra R, et al. Solving the electronic structure problem with machine learning[J]. npj Computational Materials, 2019, 5(1): 22.
 <br>
->
+
 ![Flow chart](https://github.com/mnTusi/VASP_scripts/blob/master/4.%20Machine%20learning/flow_chart.png)
 
 
