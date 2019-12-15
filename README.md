@@ -41,13 +41,15 @@ you can get "fDOS1.png,fDOS2.png,...fDOS10.png"
 ![PDOS image](https://github.com/mnTusi/VASP_scripts/blob/master/image.png)
 ## 3. Generate slab structure and high-throughput calculations
 ### 1. Preparation  
-    (1) Input folder  
-    - INCAR_relax   
-    - vasp.new <br>
 
-    (2) Origin folder   
-    - structure1.vasp
-    - structure2.vasp  
+(1) Input folder  
+- INCAR_relax       # VASP INCAR file
+- vasp.new <br>     # LSF submit system  
+
+(2) Origin folder   
+- structure1.vasp
+- structure2.vasp  
+  
 ### 1. Begin calculation  
 `$ bsub<main.lsf`
 After above finishd
@@ -72,4 +74,10 @@ The meaning of this work is trying to recur results show in this paper
 
 ![Flow chart](https://github.com/mnTusi/VASP_scripts/blob/master/4.%20Machine%20learning/flow_chart.png)
 
+Here is my work report(PPT):
 
+![PPT1](https://github.com/mnTusi/VASP_scripts/blob/master/4.%20Machine%20learning/PPT1.PNG)
+
+![PPT2](https://github.com/mnTusi/VASP_scripts/blob/master/4.%20Machine%20learning/PPT2.PNG)
+
+![PPT3](https://github.com/mnTusi/VASP_scripts/blob/master/4.%20Machine%20learning/PPT3.PNG)
