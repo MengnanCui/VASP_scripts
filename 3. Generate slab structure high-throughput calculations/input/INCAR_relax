@@ -1,0 +1,20 @@
+#Normal setting
+  ALGO = Fast
+  LREAL = Auto
+  NPAR = 2
+  ISIF = 2
+  ISPIN = 2
+
+  NSW = 1000
+  NELM = 100
+  EDIFF = 1.0E-4
+  EDIFFG = -0.05
+  PREC = Normal
+#Method choose
+  IBRION = 2
+  ICHARG = 2
+#LORBIT = 11
+#For chgcar
+  LWAVE = F
+  LCHARG = F
+
