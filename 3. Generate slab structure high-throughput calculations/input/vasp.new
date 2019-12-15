@@ -1,0 +1,13 @@
+#!/bin/bash
+#BSUB -J cui
+#BSUB -e %J.err
+#BSUB -o %J.out
+#BSUB -q newibm-128
+#BSUB -n 28
+##BSUB -R "span[host=1]"
+
+# source /gpfs/compiler/parallel_studio_xe_2017.5.061/bin/psxevars.sh >/dev/null 2>&1
+ 
+mpirun -bootstrap lsf /gpfs/home/mncui/soft/vasp.5.3/vasp.5.3/vasp > result.log
+
+
