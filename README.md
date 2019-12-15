@@ -40,7 +40,7 @@ you can get "fDOS1.png,fDOS2.png,...fDOS10.png"
 `$ eog fDOS10.png`  
 ![PDOS image](https://github.com/mnTusi/VASP_scripts/blob/master/image.png)
 ## 3. Generate slab structure and high-throughput calculations
-1. Preparation  
+### 1. Preparation  
     (1) Input folder  
     - INCAR_relax   
     - vasp.new <br>
@@ -48,21 +48,27 @@ you can get "fDOS1.png,fDOS2.png,...fDOS10.png"
     (2) Origin folder   
     - structure1.vasp
     - structure2.vasp  
-1. Begin calculation  
+### 1. Begin calculation  
 `$ bsub<main.lsf`
 After above finishd
 `./calculate.py`
-3. Introduction
+### 3. Introduction
     - main.lsf  
 This file was used to submit `surslab.1.py` into supercomputer
-4. surslab.1.py
+### 4. surslab.1.py
 This scripts were used to generate slabs and submit every slab structure into supercomputer to relax it.
     - Calculate bulk energy
     - Generate slabs  
 `slabs = generate_all_slabs(struct,2,15,15)`  
-You can edit this line to control how many slbs you want to calculate.
+You can edit this line to control how many slabs you want to calculate.
     - Calculated surface energy of each slabs
-5. calculate.py
+### 5. calculate.py
 After finished all calculation, you can run this scripts for generating file, which include the miller index of each slab and their surface enrgy.
+<br>
+## 4. Machine learning
+The meaning of this work is trying to recur results show in this paper
+>Chandrasekaran A, Kamal D, Batra R, et al. Solving the electronic structure problem with machine learning[J]. npj Computational Materials, 2019, 5(1): 22.
+<br>
+![Flow chart](https://github.com/mnTusi/VASP_scripts/blob/master/4.%20Machine%20learning/flow_chart.png)
 
 
