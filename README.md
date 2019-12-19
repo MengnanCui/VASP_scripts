@@ -74,7 +74,7 @@ The meaning of this work is trying to recur results show in this paper
 
 ![Flow chart](https://github.com/mnTusi/VASP_scripts/blob/master/4.%20Machine%20learning/flow_chart.png)
 
-### **Here is my work report(PPT):
+### Introduction of scripts:
 **
 
 ![PPT1](https://github.com/mnTusi/VASP_scripts/blob/master/4.%20Machine%20learning/PPT1.PNG)
